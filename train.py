@@ -66,6 +66,6 @@ history = model.fit(
 )
 
 # 🔹 Save model
-model.save("tumor_classifier.keras")
+model.save("tumor_classifier_v2.keras")  # overwrite old file with latest model
 
 print(" Model trained and saved!")
