@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # Load model
-model = load_model("tumor_classifier.keras")
+model = load_model("tumor_classifier_v2.keras", compile=False)
 
 classes = ['glioma', 'meningioma', 'notumor', 'pituitary']
 
