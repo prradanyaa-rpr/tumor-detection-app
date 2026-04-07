@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # Load model
-model = load_model("tumor_classifier.h5")
+model = load_model("tumor_classifier.h5", compile=False)
 
 classes = ['glioma', 'meningioma', 'notumor', 'pituitary']
 
